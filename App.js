@@ -1,11 +1,13 @@
-import React from "react"
+import React from "react";
+import Header from "./components/Header";
 
 export default function App() {
     
     return (
         <div className="container">
-            <img src="https://picsum.photos/640/360" />
-            <button>Click me</button>
+            <Header>
+                <h1>Header</h1>
+            </Header>
         </div>
     )
 }
